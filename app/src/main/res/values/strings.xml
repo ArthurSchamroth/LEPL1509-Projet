@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkoutWarrior</string>
+    <string name="test">Ceci est le premier test de string</string>
+    <string name="bienvenue_message">Bienvenue sur WorkoutWarrior !</string>
+    <string name="presentation_exo">Voici les différents trainings déjà enregistrés :</string>
+    <string name="entrainement_course">Routine Running</string>
+    <string name="entrainement_foot">Entrainement Foot</string>
+    <string name="entrainement_badminton">Entrainement Badminton</string>
+</resources>
