@@ -108,59 +108,12 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="293dp"
-                android:layout_height="117dp"
-                android:layout_marginTop="34dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:alpha="0.25"
-                    android:src="@drawable/foot_img"
-                    android:scaleType="fitXY"/>
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="34dp"
-                    android:layout_marginBottom="17dp"
-                    android:gravity="center"
-                    android:text="@string/entrainement_foot"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="293dp"
-                android:layout_height="117dp"
-                android:layout_marginTop="34dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:alpha="0.25"
-                    android:src="@drawable/badminton_img"
-                    android:scaleType="fitXY"/>
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="34dp"
-                    android:layout_marginBottom="17dp"
-                    android:gravity="center"
-                    android:text="@string/entrainement_badminton"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/daily_program"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="open_program_suggestion"
+                android:text="Suggestion de programme" />
 
         </LinearLayout>
     </ScrollView>
